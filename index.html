@@ -7,54 +7,77 @@
     <title>Sign Up Form</title>
   </head>
   <body>
-    <div class="title-container">
-      <div class="title-background-transparency">
-        <h1 class="title" id="title">Odin</h1>
+    <div class="left-container">
+      <div class="title-container">
+        <div class="title-header">
+          <div class="title-background-transparency">
+            <h1 class="title" id="title">Odin</h1>
+          </div>
+        </div>
+        <div class="title-footer">Photo by <a href="https://unsplash.com/@haliewestphoto?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Halie West</a> on <a href="https://unsplash.com/photos/25xggax4bSA?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a></div>
       </div>
-      <div class="title-footer">Photo by <a href="https://unsplash.com/@haliewestphoto?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Halie West</a> on <a href="https://unsplash.com/photos/25xggax4bSA?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a></div>
     </div>
-    <div class="description-container">
-      <h2 class="description" id="description">
-        This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams.<br>
-        Sign up <em>now</em> to get started.<br>
-        <br>
-        You <em>know</em> you want to.
-      </h2>
-    </div>
-    <div class="form-container">
-      <form action="#">
-        <h2 class="form-title" id="form-title">Let's do this!</h2>
-          <div>
-            <label for="first-name">First Name</label>
+    <div class="right-container">
+      <div class="description-container">
+        <h2 class="description" id="description">
+          This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams.<br>
+          Sign up <em>now</em> to get started.<br>
+          <br>
+          You <em>know</em> you want to.
+        </h2>
+      </div>
+      <div class="form-container">
+        <form action="#">
+          <div class="input-container">
+            <h2 class="form-title" id="form-title">Let's do this!</h2>
+            <div class="form-item">
+              <div>
+                <label for="first-name">First Name</label>
+              </div>
+              <input type="text" id="first-name" required>
+            </div>
+            <div class="form-item">
+              <div>
+                <label for="last-name">Last Name</label>
+              </div>
+              <input type="text" id="last-name" required>
+            </div>
+            <div class="form-spacer"></div>
+            <div class="form-item">
+              <div>
+                <label for="email">Email</label>
+              </div>
+              <input type="email" id="email" required>
+            </div>
+            <div class="form-item">
+              <div>
+                <label for="phone-number">Phone Number</label>
+              </div>
+              <input type="tel" id="phone-number" required>
+            </div>
+            <div class="form-spacer"></div>
+            <div class="form-item">
+              <div>
+                <label for="password">Password</label>
+              </div>
+              <input type="password" id="password" required>
+            </div>
+            <div class="form-item">
+              <div>
+                <label for="confirm-password">Confirm Password</label>
+              </div>
+              <input type="password" id="confirm-password" required>
+            </div>
+            <div class="form-spacer"></div>
           </div>
-          <input type="text" id="first-name" required>
-          <div>
-            <label for="last-name">Last Name</label>
-          </div>
-          <input type="text" id="last-name" required>
-          <div>
-            <label for="email">Email</label>
-          </div>
-          <input type="email" id="email" required>
-          <div>
-            <label for="phone-number">Phone Number</label>
-          </div>
-          <input type="tel" id="phone-number" required>
-          <div>
-            <label for="password">Password</label>
-          </div>
-          <input type="password" id="password" required>
-          <div>
-            <label for="confirm-password">Confirm Password</label>
-          </div>
-          <input type="password" id="confirm-password" required>
-          <div>
+          <div class="button-container">
             <button type="submit">Create Account</button>
           </div>
-      </form>
-    </div>
-    <div class="login-container">
-      <p>Already have an account? <a href="#">Log in</a></p>
+        </form>
+      </div>
+      <div class="login-container">
+        <p>Already have an account? <a href="#">Log in</a></p>
+      </div>
     </div>
   </body>
 </html>
