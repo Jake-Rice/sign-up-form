@@ -1,0 +1,12 @@
+.title-container {
+  color: white;
+  text-align: center;
+  background-image: url("./assets/halie-west-25xggax4bSA-unsplash.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.title-background-transparency {
+  background-color: rgba(0,0,0,0.5)
+}
