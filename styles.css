@@ -147,7 +147,11 @@ input:focus {
   box-shadow: 1px 1px 10px 2px lightgray;
 }
 
-.password-input-error {
+input:valid {
+  border-color: #E5E7EB;
+}
+
+.password-input {
   border-color: red;
 }
 
